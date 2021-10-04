@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:4
+../data/01.mp3
+#EXTINF:4
+../data/02.mp3
+#EXTINF:-1
+../playlist/b.m3u8

@@ -1,0 +1,88 @@
+{
+  "mimeType" : "application\/vnd.apple.mpegurl",
+  "processedSegmentsCount" : 2,
+  "url" : "https:\/\/owahltinez.github.io\/m3u8test\/playlist\/hls.m3u8",
+  "hasDiscSequenceTag" : false,
+  "meanSegmentCount" : 2,
+  "integerDurations" : true,
+  "measuredMeanBitrate" : 324174,
+  "parsedSegmentsCount" : 2,
+  "fetchCount" : 2,
+  "sslHosts" : {
+    "https:\/\/owahltinez.github.io" : {
+      "sslNegotiatedProtocolVersion" : 8,
+      "sslNegotiatedCipher" : 49199,
+      "sslRSAKeySizeInBits" : 2048
+    }
+  },
+  "hasEndTag" : false,
+  "validatorTimestamp" : "2021-10-04T01:15:07.846-04:00",
+  "validatorVersion" : "1.9 (522.7-210603)",
+  "meanTotalDuration" : 8,
+  "measuredMaxBitrate" : 324174,
+  "independentSegments" : true,
+  "playlistKind" : "media",
+  "sslContentDeliveredSecurely" : true,
+  "discontinuities" : [
+    {
+      "segments" : [
+        {
+          "segmentDurationTag" : 4,
+          "mediaSequence" : 0,
+          "mimeType" : "audio\/mp3",
+          "dataID" : 1,
+          "url" : "..\/data\/01.mp3",
+          "segmentByteRangeLength" : 0,
+          "metadata" : {
+            "ID3" : 1
+          },
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0,
+          "format" : "elementary",
+          "startTime" : 0,
+          "discontinuityDomain" : 0
+        },
+        {
+          "segmentDurationTag" : 4,
+          "mediaSequence" : 1,
+          "mimeType" : "audio\/mp3",
+          "dataID" : 2,
+          "url" : "..\/data\/02.mp3",
+          "segmentByteRangeLength" : 0,
+          "metadata" : {
+            "ID3" : 1
+          },
+          "sslContentDeliveredSecurely" : true,
+          "segmentByteRangeOffset" : 0,
+          "format" : "elementary",
+          "startTime" : 4.0489795918367344,
+          "discontinuityDomain" : 0
+        }
+      ],
+      "measurements" : {
+        "measuredMaxBitrate" : 324174,
+        "measuredMeanBitrate" : 324174,
+        "measuredSegments" : 2
+      },
+      "tracks" : [
+        {
+          "trackMediaType" : "soun",
+          "trackAudioChannelCount" : 2,
+          "trackId" : 100,
+          "trackAudioSampleRate" : 44100,
+          "trackMediaSubType" : ".mp3",
+          "trackAudioChannelLayout" : "Stereo (L R)"
+        },
+        {
+          "trackMediaType" : "\u0000\u0000\u0000\u0000",
+          "trackMediaSubType" : "id3 ",
+          "trackId" : 101
+        }
+      ]
+    }
+  ],
+  "playlistTargetDuration" : 4,
+  "dataVersion" : 1.1000000000000001,
+  "gzipEncoded" : false,
+  "dataID" : 0
+}
